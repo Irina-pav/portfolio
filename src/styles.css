@@ -79,4 +79,7 @@ h1#contact {
     font-weight: 300;
     font-size: small;
   }
+  .text-start {
+    font-size: small;
+  }
 }
