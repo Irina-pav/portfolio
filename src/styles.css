@@ -74,3 +74,9 @@ h1#contact {
 #first-text {
   font-weight: 600;
 }
+@media (max-width: 400px) {
+  #first-text {
+    font-weight: 300;
+    font-size: small;
+  }
+}
