@@ -1,0 +1,73 @@
+:root {
+  --background: radial-gradient(
+    circle at 10% 20%,
+    rgba(216, 241, 230, 0.46) 0.1%,
+    rgba(233, 226, 226, 0.28) 90.1%
+  );
+  --primary-color: #a66cff;
+  --secondary-color: #b1e1ff;
+}
+
+body {
+  background: var(--background);
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+h1 {
+  font-weight: 700;
+}
+h2 {
+  font-weight: 500;
+}
+h3 {
+  font-weight: bold;
+  padding-top: 50px;
+}
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+.button {
+  text-align: center;
+  padding: 20px;
+}
+.nav-link {
+  font-weight: bold;
+  color: var(--primary-color);
+}
+#about-me-button {
+  font-weight: 700;
+  border: 1px solid var(--primary-color);
+  border-radius: 20px;
+  padding: 20px;
+}
+#contact-button {
+  font-weight: 700;
+  border: 1px solid var(--primary-color);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+h1#about {
+  margin: 30px;
+}
+h1#contact {
+  margin: 30px;
+}
+#app-button {
+  background-color: var(--secondary-color);
+  border: 1px solid var(--primary-color);
+  padding: 20px;
+  border-radius: 20px;
+  font-size: medium;
+  font-weight: 700;
+  box-shadow: 0.3em 0.3em 1em var(--secondary-color);
+}
+#e-mail {
+  color: black;
+  font-weight: bold;
+}
