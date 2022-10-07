@@ -6,6 +6,7 @@
   );
   --primary-color: #a66cff;
   --secondary-color: #b1e1ff;
+  --text-color: #6b206a;
 }
 
 body {
@@ -26,6 +27,10 @@ h3 {
 a {
   color: var(--primary-color);
   text-decoration: none;
+}
+p {
+  color: var(--text-color);
+  font-weight: bold;
 }
 .buttons {
   display: flex;
