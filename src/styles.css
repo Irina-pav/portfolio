@@ -80,6 +80,9 @@ h1#contact {
   font-weight: 600;
 }
 @media (max-width: 400px) {
+  p {
+    line-height: 1.5;
+  }
   #first-text {
     font-weight: 300;
     font-size: small;
