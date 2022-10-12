@@ -76,16 +76,18 @@ h1#contact {
   color: black;
   font-weight: bold;
 }
-#first-text {
-  font-weight: 600;
+card#first-text {
+  line-height: 1.5;
+  font-size: large;
+  font-weight: bold;
 }
 @media (max-width: 400px) {
   p {
     line-height: 1.5;
   }
   #first-text {
-    font-weight: 300;
-    font-size: small;
+    line-height: 1.2;
+    font-size: large;
     margin: 0 20px;
   }
   .text-start {
