@@ -32,6 +32,11 @@ p {
   color: var(--text-color);
   font-weight: bold;
 }
+a.footer {
+  color: var(--text-color);
+  font-weight: bold;
+  font-size: 1rem;
+}
 .buttons {
   display: flex;
   justify-content: space-evenly;
